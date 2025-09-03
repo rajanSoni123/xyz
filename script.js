@@ -100,9 +100,10 @@ noBtn.addEventListener('click', () => {
 });
 
 yesBtn.addEventListener('click', () => {
-    questionElement.textContent = "YESSS! I totally knew it! It's official, we're besties for life now! 🥳✨";
+    questionElement.textContent = "YESSS! I totally knew it! It's official, we're best Friends for life now! 🥳✨";
     subtitleElement.textContent = "";
     gifElement.src = "gif6.gif";
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
+
 });
